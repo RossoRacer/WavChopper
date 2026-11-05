@@ -23,3 +23,29 @@ Notes
 - The log at the bottom of the window shows a result line for each file dropped.
 - The app needs permission to create folders next to your files. When building
   in Xcode, remove App Sandbox under Signing & Capabilities.
+
+## Getting the code
+
+**Clone with git**
+
+```
+git clone https://github.com/RossoRacer/WavChopper.git
+cd WavChopper
+open WavChopper.xcodeproj
+```
+
+**Or download a ZIP**
+
+1. On the repo page, click the green **Code** button.
+2. Choose **Download ZIP** and unzip it.
+3. Double-click `WavChopper.xcodeproj` to open it in Xcode.
+
+## Building
+
+1. Open `WavChopper.xcodeproj` in Xcode (macOS only).
+2. If Xcode complains about signing, select the WavChopper target, go to
+   Signing & Capabilities, and choose your own team or "Sign to Run Locally".
+3. Press Run (⌘R).
+
+The app needs App Sandbox turned off so it can create folders next to the
+files you drop. This is already set in the project.
