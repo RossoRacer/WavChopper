@@ -3,6 +3,9 @@ WavChopper
 
 WavChopper splits a wavetable .wav file into individual single-cycle waves.
 
+<img width="909" height="459" alt="image" src="https://github.com/user-attachments/assets/c8b3a8f3-d915-4446-b5ae-64794cdc500f" />
+
+
 How to use
 ----------
 1. Choose the cycle size with the row of buttons at the top:
